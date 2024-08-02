@@ -3,6 +3,9 @@ function loadHome() {
     document.getElementById('content').innerHTML = "";
     const contentElement = document.getElementById("content");
 
+    
+
+
     //create div container 1
     const mydiv = document.createElement("div");
     mydiv.id = 'mydiv';
@@ -53,7 +56,7 @@ function loadHome() {
 
     //create text, append to div 2
     const divText2 = document.createElement("p");
-    const divTextNode2 = document.createTextNode("Webcore (or Old Web) is an aesthetic expresses nostalgia for Internet culture of the early 1990s to Late 2000s (spanning from roughly the release of the World Wide Web up until Flat Design and smartphones were popularized, so around ~2015).");
+    const divTextNode2 = document.createTextNode("A yellow sea sponge named SpongeBob SquarePants, who enjoys being a cook at Krusty Krab, lives in the Pacific Ocean. He embarks on various adventures with his friends at Bikini Bottom.");
     divText2.appendChild(divTextNode2);
     mydiv2.appendChild(divText2);
 
@@ -62,6 +65,11 @@ function loadHome() {
     ad2.setAttribute('src', "../media/sims2.gif");
     ad2.classList = "banner";
     contentElement.appendChild(ad2);
+
+    // const ufo = document.createElement("img");
+    // ufo.setAttribute('src', '../media/ufobar.gif');
+    // contentElement.appendChild(ufo);
+    
 
     
 }
