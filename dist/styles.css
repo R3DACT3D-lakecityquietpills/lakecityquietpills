@@ -1,0 +1,140 @@
+/* html,
+body {
+    width: auto !important;
+    overflow-x: hidden !important
+} */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    margin: 0px;
+    background: black;
+    background-image: url("https://sweethard666.neocities.org/index/Twinkling-stars.gif");
+    background-repeat: repeat;
+    text-align: center;
+}
+
+#page {
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+div {
+    /* border: solid green 2px; */
+}
+
+#main {
+    display: flex;
+    /* border:solid red 2px; */
+    justify-content: space-between;
+}
+
+p {
+    color: white;
+}
+
+#leftSidebar {
+    /* border: solid white 2px; */
+}
+
+#content {
+    /* border: solid white 2px; */
+
+    /* padding-left: 100px; */
+    /* padding-right: 100px; */
+
+    max-width: 600px;
+
+
+}
+
+#rightSidebar {
+    /* border: solid white 2px; */
+}
+
+#mainTitle {
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+nav {
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    /* border: solid white 2px; */
+    margin-bottom: 50px;
+    /* margin-top: 25px; */
+    background-color: rgba(132, 255, 132, 0.75);
+    border: solid 3px rgba(132, 255, 132, 1);
+
+}
+
+button {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    background-color: rgba(1, 1, 1, 0);
+    border-style: none;
+    display: flex;
+    /* align-items: center; */
+}
+
+button:hover {
+    background-color: rgba(132, 255, 132, 1);
+    cursor: pointer;
+
+}
+
+#mydiv {
+    border: solid red 5px;
+    background-image: url(https://dannarchy.com/misc/backgrnd/dnf.jpg);
+    background-repeat: repeat;
+
+}
+
+#mydiv2 {
+    border: solid purple 5px;
+    background-image: url(../media/ether.jpg);
+    background-repeat: repeat;
+}
+
+.banner {
+    
+
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.sidebar {
+    /* border: solid 2px red; */
+    /* background-image: url(../media/vertical_sword.gif); */
+    background-repeat: repeat-y;
+}
