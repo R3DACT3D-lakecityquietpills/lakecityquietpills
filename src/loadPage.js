@@ -3,9 +3,6 @@ function loadHome() {
     document.getElementById('content').innerHTML = "";
     const contentElement = document.getElementById("content");
 
-    
-
-
     //create div container 1
     const mydiv = document.createElement("div");
     mydiv.id = 'mydiv';
@@ -19,7 +16,7 @@ function loadHome() {
 
     //create image, append to div 1
     const homepageImage = document.createElement("img");
-    homepageImage.setAttribute('src', 'https://web.archive.org/web/20020327170629/http://geocities.com:80/osirian63/globe1.gif');
+    homepageImage.setAttribute('src', '../media/globe1.gif');
     // homepageImage.setAttribute('src', '../media/greyabstract.jpg')
     // homepageImage.setAttribute('width', '100%');
     mydiv.appendChild(homepageImage);
@@ -32,7 +29,7 @@ function loadHome() {
 
     //create ad banner, append to main content
     const ad = document.createElement('img');
-    ad.setAttribute('src', "https://sweethard666.neocities.org/simbanner.gif");
+    ad.setAttribute('src', "../media/simbanner.gif");
     ad.classList = "banner";
     contentElement.appendChild(ad);
 
@@ -69,8 +66,6 @@ function loadHome() {
     // const ufo = document.createElement("img");
     // ufo.setAttribute('src', '../media/ufobar.gif');
     // contentElement.appendChild(ufo);
-    
-
     
 }
 
