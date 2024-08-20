@@ -16,7 +16,7 @@ function loadHome() {
 
     //create image, append to div 1
     const homepageImage = document.createElement("img");
-    homepageImage.setAttribute('src', '../media/globe1.gif');
+    homepageImage.setAttribute('src', './media/globe1.gif');
     // homepageImage.setAttribute('src', '../media/greyabstract.jpg')
     // homepageImage.setAttribute('width', '100%');
     mydiv.appendChild(homepageImage);
@@ -29,7 +29,7 @@ function loadHome() {
 
     //create ad banner, append to main content
     const ad = document.createElement('img');
-    ad.setAttribute('src', "../media/simbanner.gif");
+    ad.setAttribute('src', "./media/simbanner.gif");
     ad.classList = "banner";
     contentElement.appendChild(ad);
 
@@ -46,7 +46,7 @@ function loadHome() {
 
     //create image, append to div 2
     const div2Img = document.createElement("img");
-    div2Img.setAttribute('src', '../media/gloves.gif');
+    div2Img.setAttribute('src', './media/gloves.gif');
     // homepageImage.setAttribute('src', '../media/greyabstract.jpg')
     // homepageImage.setAttribute('width', '100%');
     mydiv2.appendChild(div2Img);
@@ -59,13 +59,9 @@ function loadHome() {
 
     //create ad banner 2, append to main content
     const ad2 = document.createElement('img');
-    ad2.setAttribute('src', "../media/sims2.gif");
+    ad2.setAttribute('src', "./media/sims2.gif");
     ad2.classList = "banner";
     contentElement.appendChild(ad2);
-
-    // const ufo = document.createElement("img");
-    // ufo.setAttribute('src', '../media/ufobar.gif');
-    // contentElement.appendChild(ufo);
     
 }
 

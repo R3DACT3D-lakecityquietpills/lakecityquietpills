@@ -11,7 +11,7 @@ body {
     /* justify-content: center; */
     margin: 0px;
     background: black;
-    background-image: url("https://sweethard666.neocities.org/index/Twinkling-stars.gif");
+    background-image: url("./media/Twinkling-stars.gif");
     background-repeat: repeat;
     text-align: center;
 }
@@ -105,14 +105,14 @@ button:hover {
 
 #mydiv {
     border: solid red 5px;
-    background-image: url(https://dannarchy.com/misc/backgrnd/dnf.jpg);
+    background-image: url(./media/dnf.jpg);
     background-repeat: repeat;
 
 }
 
 #mydiv2 {
     border: solid purple 5px;
-    background-image: url(../media/ether.jpg);
+    background-image: url(./media/ether.jpg);
     background-repeat: repeat;
 }
 
