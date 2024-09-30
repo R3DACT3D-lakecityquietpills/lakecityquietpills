@@ -17,8 +17,11 @@ body {
 }
 
 #page {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* min-width: 75%; */
+    /* max-width: 80%; */
+    width: 90%;
 
 }
 
@@ -64,6 +67,12 @@ p {
     /* border: solid white 2px; */
 }
 
+.homepageImg {
+    padding-top: 25px;
+}
+
+
+
 #mainTitle {
     display: block;
     margin: 0 auto;
@@ -72,8 +81,6 @@ p {
 }
 
 nav {
-    
-
     display: flex;
     justify-content: center;
     align-items: end;
@@ -82,25 +89,33 @@ nav {
     /* margin-top: 25px; */
     background-color: rgba(132, 255, 132, 0.75);
     border: solid 3px rgba(132, 255, 132, 1);
+    /* min-width: 80%; */
+}
+
+.foodCard:hover {
+    
+    cursor: pointer;
+    /* align-items: center; */
+    background-color: rgb(29, 29, 29, 0.75);
 
 }
 
-button {
+
+
+.navBtn:hover {
+    background-color: rgba(132, 255, 132, 1);
+    cursor: pointer;
+
+}
+
+.navBtn {
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 10px;
     padding-right: 10px;
-
-    background-color: rgba(1, 1, 1, 0);
     border-style: none;
     display: flex;
-    /* align-items: center; */
-}
-
-button:hover {
-    background-color: rgba(132, 255, 132, 1);
-    cursor: pointer;
-
+    background-color: rgba(1, 1, 1, 0);
 }
 
 #mydiv {
@@ -116,8 +131,28 @@ button:hover {
     background-repeat: repeat;
 }
 
+#aboutDiv{
+    border: solid purple 5px;
+    background-image: url(./media/ether.jpg);
+}
+
+#menuContainer {
+    /* border: solid red 2px; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-bottom: 100px;
+}
+
+.foodCard {
+    border: solid white 2px;
+    border-radius: 10px;
+    /* background-color: rgba(0, 0, 0, 0.719); */
+    /* width: 10em; */
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
 .banner {
-    
 
     padding: 0;
     display: block;

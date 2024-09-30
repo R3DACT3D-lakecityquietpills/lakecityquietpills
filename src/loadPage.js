@@ -3,20 +3,25 @@ function loadHome() {
     document.getElementById('content').innerHTML = "";
     const contentElement = document.getElementById("content");
 
+    //create headline, append to div 1
+    const headline = document.createElement("h2");
+    const headText = document.createTextNode("Homepage");
+    headline.appendChild(headText);
+    contentElement.appendChild(headline);
+
     //create div container 1
     const mydiv = document.createElement("div");
     mydiv.id = 'mydiv';
     contentElement.appendChild(mydiv);
 
-    //create headline, append to div 1
-    const headline = document.createElement("h2");
-    const headText = document.createTextNode("Homepage");
-    headline.appendChild(headText);
-    mydiv.appendChild(headline);
+    
+    
+
 
     //create image, append to div 1
     const homepageImage = document.createElement("img");
     homepageImage.setAttribute('src', './media/globe1.gif');
+    homepageImage.classList = "homepageImg";
     // homepageImage.setAttribute('src', '../media/greyabstract.jpg')
     // homepageImage.setAttribute('width', '100%');
     mydiv.appendChild(homepageImage);
@@ -38,15 +43,16 @@ function loadHome() {
     mydiv2.id = 'mydiv2';
     contentElement.appendChild(mydiv2);
 
-    //create headline, append to div 2
-    const header2 = document.createElement("h2");
-    const headerText2 = document.createTextNode("Woo hoo!");
-    header2.appendChild(headerText2);
-    mydiv2.appendChild(header2);
+    // //create headline, append to div 2
+    // const header2 = document.createElement("h2");
+    // const headerText2 = document.createTextNode("Woo hoo!");
+    // header2.appendChild(headerText2);
+    // mydiv2.appendChild(header2);
 
     //create image, append to div 2
     const div2Img = document.createElement("img");
     div2Img.setAttribute('src', './media/gloves.gif');
+    div2Img.classList = "homepageImg";
     // homepageImage.setAttribute('src', '../media/greyabstract.jpg')
     // homepageImage.setAttribute('width', '100%');
     mydiv2.appendChild(div2Img);
