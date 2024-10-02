@@ -3,9 +3,7 @@ import loadMenu from './loadMenu.js';
 import loadAbout from './loadAbout.js';
 import loadSidebars from './loadSidebars.js';
 
-// loadHome();
-loadMenu();
-// loadSidebars();
+loadHome();
 
 const homeBtn = document.getElementById('home');
 homeBtn.addEventListener('click', loadHome);
