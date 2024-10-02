@@ -14,6 +14,7 @@ body {
     background-image: url("./media/Twinkling-stars.gif");
     background-repeat: repeat;
     text-align: center;
+    overflow-y:scroll;
 }
 
 #page {

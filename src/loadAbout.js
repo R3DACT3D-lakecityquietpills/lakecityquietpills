@@ -20,7 +20,7 @@ function loadAbout() {
 
     //create image, append to div 1
     const homepageImage = document.createElement("img");
-    homepageImage.setAttribute('src', './media/globe1.gif');
+    homepageImage.setAttribute('src', './media/book1.gif');
     homepageImage.classList = "homepageImg";
     // homepageImage.setAttribute('src', '../media/greyabstract.jpg')
     // homepageImage.setAttribute('width', '100%');
